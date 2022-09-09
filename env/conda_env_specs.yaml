@@ -1,0 +1,19 @@
+name: pyboxmodel_dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cftime
+  - numpy
+  - nc-time-axis
+  - bottleneck
+  - pint
+  - netcdf4
+  - python[version='>=3.10']
+  - scipy
+  - seaborn
+  - matplotlib
+  - xarray
+  - dvc
+  - ruamel.yaml
+
